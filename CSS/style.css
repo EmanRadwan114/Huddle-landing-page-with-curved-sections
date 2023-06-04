@@ -356,15 +356,14 @@ header{
     }
     .grow-together-content, .your-users-content, .flow-conversation-content{
         position: static;
+    }
+
+    .grow-together-image, .flow-conversation-image, .your-users-image,     .grow-together-content, .your-users-content, .flow-conversation-content{
         text-align: center;
     }
 
     .grow-together-content p br, .your-users-content p br, .flow-conversation-content p br{
         display: none;
-    }
-
-    .grow-together-image img, .flow-conversation-image img, .your-users-image img{
-        width: 100%;
     }
 
     .grow-items, .users-items{
